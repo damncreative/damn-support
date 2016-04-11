@@ -1,0 +1,33 @@
+{
+  "name": "damn-support",
+  "version": "0.0.1",
+  "description": "damnjs support library",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha test",
+    "test-cov": "node_modules/.bin/istanbul cover node_modules/mocha/bin/_mocha test"
+  },
+  "engines": {
+    "node": ">=4.2.1"
+  },
+  "author": "damn creative <info@damncreative.de>",
+  "liecnse": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:damncreative/damn-support.git"
+  },
+  "homepage": "https://github.com/damncreative/damn-support",
+  "bugs": "https://github.com/damncreative/damn-support/issues",
+  "keywords": [
+    "damn",
+    "support"
+  ],
+  "devDependencies": {
+    "istanbul": "0.4.3",
+    "mocha": "2.4.5",
+    "should": "8.3.0",
+    "supertest": "1.2.0"
+  },
+  "dependencies": {
+  }
+}
