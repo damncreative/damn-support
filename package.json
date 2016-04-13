@@ -1,6 +1,6 @@
 {
   "name": "damn-support",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "damnjs support library",
   "main": "lib/index.js",
   "scripts": {
